@@ -1,0 +1,6 @@
+c:\users\prafu\documents\visual studio 2017\Projects\Practice2018\Practice2018\bin\Debug\Practice2018.exe.config
+c:\users\prafu\documents\visual studio 2017\Projects\Practice2018\Practice2018\bin\Debug\Practice2018.exe
+c:\users\prafu\documents\visual studio 2017\Projects\Practice2018\Practice2018\bin\Debug\Practice2018.pdb
+c:\users\prafu\documents\visual studio 2017\Projects\Practice2018\Practice2018\obj\Debug\Practice2018.csprojResolveAssemblyReference.cache
+c:\users\prafu\documents\visual studio 2017\Projects\Practice2018\Practice2018\obj\Debug\Practice2018.exe
+c:\users\prafu\documents\visual studio 2017\Projects\Practice2018\Practice2018\obj\Debug\Practice2018.pdb
