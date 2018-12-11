@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{6F2BB47E-3D05-49BD-A5BD-8897F8E2EB9A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Practice2018</RootNamespace>
-    <AssemblyName>Practice2018</AssemblyName>
+    <RootNamespace>Adelaide</RootNamespace>
+    <AssemblyName>Adelaide</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
