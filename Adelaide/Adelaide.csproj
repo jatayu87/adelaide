@@ -52,8 +52,10 @@
     <Compile Include="StackAndQueue\QueueUsingStacks.cs" />
     <Compile Include="StackAndQueue\SortAStack.cs" />
     <Compile Include="StackAndQueue\StackOfStacks.cs" />
-    <Compile Include="Trees\Tree.cs" />
+    <Compile Include="Trees\TreeNode.cs" />
+    <Compile Include="Trees\TreeNodeWithSizeOperations.cs" />
     <Compile Include="Trees\TreeOperations.cs" />
+    <Compile Include="Trees\TreeNodeWithSize.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

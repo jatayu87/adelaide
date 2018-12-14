@@ -1,0 +1,6 @@
+C:\Users\prafu\Documents\Visual Studio 2017\Projects\git\adelaide\Adelaide\bin\Debug\Adelaide.exe.config
+C:\Users\prafu\Documents\Visual Studio 2017\Projects\git\adelaide\Adelaide\bin\Debug\Adelaide.exe
+C:\Users\prafu\Documents\Visual Studio 2017\Projects\git\adelaide\Adelaide\bin\Debug\Adelaide.pdb
+C:\Users\prafu\Documents\Visual Studio 2017\Projects\git\adelaide\Adelaide\obj\Debug\Adelaide.csprojResolveAssemblyReference.cache
+C:\Users\prafu\Documents\Visual Studio 2017\Projects\git\adelaide\Adelaide\obj\Debug\Adelaide.exe
+C:\Users\prafu\Documents\Visual Studio 2017\Projects\git\adelaide\Adelaide\obj\Debug\Adelaide.pdb
