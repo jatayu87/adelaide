@@ -346,79 +346,79 @@ namespace Practice2018.Trees
                 list.Add(node.Right);
         }
 
-        static void Main(string[] args)
-        {
-            TreeOperations t = new TreeOperations();
-            TreeNode root = t.InsertANodeInBinarySearchTree(null, 50);
+        //static void Main(string[] args)
+        //{
+        //    TreeOperations t = new TreeOperations();
+        //    TreeNode root = t.InsertANodeInBinarySearchTree(null, 50);
 
-            root = t.InsertANodeInBinarySearchTree(root, 20);
-            root = t.InsertANodeInBinarySearchTree(root, 60);
-            root = t.InsertANodeInBinarySearchTree(root, 25);
-            root = t.InsertANodeInBinarySearchTree(root, 70);
-            root = t.InsertANodeInBinarySearchTree(root, 10);
-            root = t.InsertANodeInBinarySearchTree(root, 15);
-            root = t.InsertANodeInBinarySearchTree(root, 5);
-            root = t.InsertANodeInBinarySearchTree(root, 65);
-            root = t.InsertANodeInBinarySearchTree(root, 80);
-
-
-            WriteLine("\nInOrder traversing:");
-            t.InorderTraverseRecursive(root);
-
-            WriteLine("\nPreOrder traversing:");
-            t.PreOrderTraverseRecursive(root);
-
-            WriteLine("\nPostOrder traversing:");
-            t.PostOrderTraverseRecuresive(root);
-            WriteLine();
+        //    root = t.InsertANodeInBinarySearchTree(root, 20);
+        //    root = t.InsertANodeInBinarySearchTree(root, 60);
+        //    root = t.InsertANodeInBinarySearchTree(root, 25);
+        //    root = t.InsertANodeInBinarySearchTree(root, 70);
+        //    root = t.InsertANodeInBinarySearchTree(root, 10);
+        //    root = t.InsertANodeInBinarySearchTree(root, 15);
+        //    root = t.InsertANodeInBinarySearchTree(root, 5);
+        //    root = t.InsertANodeInBinarySearchTree(root, 65);
+        //    root = t.InsertANodeInBinarySearchTree(root, 80);
 
 
-            // search a value in BST
-            //var val = 20;
-            //WriteLine($"Is value:{val} present in the tree?: {t.SearchInBST(root, val)}");
+        //    WriteLine("\nInOrder traversing:");
+        //    t.InorderTraverseRecursive(root);
 
-            //// returns minimal BST
-            ////int[] a= {10, 20, 30, 40, 50, 60, 70, 80};
-            ////var minBstRoot = t.CreateMinimalBST(a);
-            ////t.InorderTraverseRecursive(minBstRoot);
+        //    WriteLine("\nPreOrder traversing:");
+        //    t.PreOrderTraverseRecursive(root);
 
-            //// calculate height of the tree. 
-            //WriteLine($"Height of the given tree is: {t.HeightOfTree(root)}");
-
-            //// Check if balanced tree
-            //WriteLine($"Is the tree with root: {root.Data}, balanced?: {t.IsBalanced(root)}");
-
-            //// check if the binary tree is BST
-            //WriteLine($"Is the tree with root:{root.Data}, a BST?:{t.IsBST(root)}");
-
-            // common ancestor of the binary tree
-            //int p = 55;
-            //int q = 105;
-            //WriteLine($"Common Ancestor of {p}, {q} is {t.GetCommonAncestor(root, p, q).Data}");
+        //    WriteLine("\nPostOrder traversing:");
+        //    t.PostOrderTraverseRecuresive(root);
+        //    WriteLine();
 
 
-            // Check if a tree contains a subtree.
-            //TreeNode subTreeNodeRoot = t.InsertANodeInBinarySearchTree(null, 20);
-            //subTreeNodeRoot = t.InsertANodeInBinarySearchTree(subTreeNodeRoot, 10);
-            //subTreeNodeRoot = t.InsertANodeInBinarySearchTree(subTreeNodeRoot, 15);
-            //WriteLine($"TreeNode with root:{root.Data} contains subTree with root:{subTreeNodeRoot.Data}? :" +
-            //          $"{t.IsSubTree(root, subTreeNodeRoot)}");
+        //    // search a value in BST
+        //    //var val = 20;
+        //    //WriteLine($"Is value:{val} present in the tree?: {t.SearchInBST(root, val)}");
 
-            //var sum = 1300;
-            //WriteLine($"TreeNode with root:{root.Data} has {t.CountPathsWithSum(root, sum)}" +
-            //          $" paths of of sum: {sum}");
+        //    //// returns minimal BST
+        //    ////int[] a= {10, 20, 30, 40, 50, 60, 70, 80};
+        //    ////var minBstRoot = t.CreateMinimalBST(a);
+        //    ////t.InorderTraverseRecursive(minBstRoot);
+
+        //    //// calculate height of the tree. 
+        //    //WriteLine($"Height of the given tree is: {t.HeightOfTree(root)}");
+
+        //    //// Check if balanced tree
+        //    //WriteLine($"Is the tree with root: {root.Data}, balanced?: {t.IsBalanced(root)}");
+
+        //    //// check if the binary tree is BST
+        //    //WriteLine($"Is the tree with root:{root.Data}, a BST?:{t.IsBST(root)}");
+
+        //    // common ancestor of the binary tree
+        //    //int p = 55;
+        //    //int q = 105;
+        //    //WriteLine($"Common Ancestor of {p}, {q} is {t.GetCommonAncestor(root, p, q).Data}");
 
 
-            var listOfLists = t.ListOfDepths(root);
-            foreach (var list in listOfLists)
-            {
-                WriteLine();
-                foreach (var treeNode in list)
-                {
-                    Write($" {treeNode.Data}");
-                }
-            }
-            ReadKey();
-        }
+        //    // Check if a tree contains a subtree.
+        //    //TreeNode subTreeNodeRoot = t.InsertANodeInBinarySearchTree(null, 20);
+        //    //subTreeNodeRoot = t.InsertANodeInBinarySearchTree(subTreeNodeRoot, 10);
+        //    //subTreeNodeRoot = t.InsertANodeInBinarySearchTree(subTreeNodeRoot, 15);
+        //    //WriteLine($"TreeNode with root:{root.Data} contains subTree with root:{subTreeNodeRoot.Data}? :" +
+        //    //          $"{t.IsSubTree(root, subTreeNodeRoot)}");
+
+        //    //var sum = 1300;
+        //    //WriteLine($"TreeNode with root:{root.Data} has {t.CountPathsWithSum(root, sum)}" +
+        //    //          $" paths of of sum: {sum}");
+
+
+        //    var listOfLists = t.ListOfDepths(root);
+        //    foreach (var list in listOfLists)
+        //    {
+        //        WriteLine();
+        //        foreach (var treeNode in list)
+        //        {
+        //            Write($" {treeNode.Data}");
+        //        }
+        //    }
+        //    ReadKey();
+        //}
     }
 }

@@ -42,6 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Strings\StringOperations.cs" />
+    <Compile Include="Bitwise\BitPractice.cs" />
     <Compile Include="Bitwise\Bitwise.cs" />
     <Compile Include="StackAndQueue\BasicStack.cs" />
     <Compile Include="StackAndQueue\MultiStack.cs" />
