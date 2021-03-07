@@ -102,10 +102,10 @@ namespace Adelaide.Strings
             Console.WriteLine($"strings to compare:{s1} & {s2}. Result: {IsOneDistanceAway(s1, s2)}");
         }
 
-        static void Main(string[] args)
+        /*static void Main(string[] args)
         {
             var s = new StringOperations();
             s.TestOneDistanceAway();
-        }
+        }*/
     }
 }
