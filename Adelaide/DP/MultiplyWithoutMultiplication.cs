@@ -29,14 +29,14 @@ namespace Adelaide.DP
             return multiplicationResult;
         }
 
-         static void Main(string[] args)
-        {
-            MultiplyWithoutMultiplication m = new MultiplyWithoutMultiplication();
-            int number1 = 18;
-            int number2 = 87;
+        // static void Main(string[] args)
+        //{
+        //    MultiplyWithoutMultiplication m = new MultiplyWithoutMultiplication();
+        //    int number1 = 18;
+        //    int number2 = 87;
 
-            Console.WriteLine($"{number1} * {number2} = {m.Multiply(number1, number2)}");
-            Console.ReadKey();
-        }
+        //    Console.WriteLine($"{number1} * {number2} = {m.Multiply(number1, number2)}");
+        //    Console.ReadKey();
+        //}
     }
 }

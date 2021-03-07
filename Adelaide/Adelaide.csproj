@@ -47,6 +47,7 @@
     <Compile Include="DP\DP_MagicIndex.cs" />
     <Compile Include="DP\MultiplyWithoutMultiplication.cs" />
     <Compile Include="DP\NQueens.cs" />
+    <Compile Include="DP\TowerOfHanoi.cs" />
     <Compile Include="Strings\StringOperations.cs" />
     <Compile Include="Bitwise\BitPractice.cs" />
     <Compile Include="Bitwise\Bitwise.cs" />
