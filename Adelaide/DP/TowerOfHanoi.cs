@@ -103,28 +103,28 @@ namespace Adelaide.DP
         }
 
         
-        public static void Main(string[] args)
-        {
-            TowerOfHanoi t = new TowerOfHanoi();
-            int sourceTowerNumber = 0;
-            int destinationTowerNumber = 1;
-            int bufferTowerNumber = 2;
-            int discCount = 6;
+        //public static void Main(string[] args)
+        //{
+        //    TowerOfHanoi t = new TowerOfHanoi();
+        //    int sourceTowerNumber = 0;
+        //    int destinationTowerNumber = 1;
+        //    int bufferTowerNumber = 2;
+        //    int discCount = 6;
 
-            t.LoadDisksOnTower(sourceTowerNumber, discCount);
+        //    t.LoadDisksOnTower(sourceTowerNumber, discCount);
             
-            Console.WriteLine($"Source Tower loaded...");
-            Console.WriteLine($"Goal: Move disks from Tower: {sourceTowerNumber} to Tower:{destinationTowerNumber} ");
-            Console.WriteLine(); Console.WriteLine();
+        //    Console.WriteLine($"Source Tower loaded...");
+        //    Console.WriteLine($"Goal: Move disks from Tower: {sourceTowerNumber} to Tower:{destinationTowerNumber} ");
+        //    Console.WriteLine(); Console.WriteLine();
 
-            t.MoveDisks(discCount, t.towers[sourceTowerNumber], t.towers[destinationTowerNumber], t.towers[bufferTowerNumber]);
+        //    t.MoveDisks(discCount, t.towers[sourceTowerNumber], t.towers[destinationTowerNumber], t.towers[bufferTowerNumber]);
 
-            Console.WriteLine(); Console.WriteLine();
-            Console.WriteLine("Printing Stats on Towers:");
-            t.PrintAllTowerMoveStats(sourceTowerNumber, destinationTowerNumber, bufferTowerNumber);
+        //    Console.WriteLine(); Console.WriteLine();
+        //    Console.WriteLine("Printing Stats on Towers:");
+        //    t.PrintAllTowerMoveStats(sourceTowerNumber, destinationTowerNumber, bufferTowerNumber);
 
-            Console.ReadKey();
-        }
+        //    Console.ReadKey();
+        //}
 
         public void PrintAllTowerMoveStats(int source, int destination, int buffer)
         {
