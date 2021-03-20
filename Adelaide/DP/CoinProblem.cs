@@ -56,19 +56,19 @@ namespace Adelaide.DP
             }
         }
 
-        public static void Main(string[] args)
-        {
-            CoinProblem cp = new CoinProblem();
-            //cp.Test();
+        //public static void Main(string[] args)
+        //{
+        //    CoinProblem cp = new CoinProblem();
+        //    //cp.Test();
 
-            int[] coins = { 1, 2, 5 };
-            int amount = 12;
+        //    int[] coins = { 1, 2, 5 };
+        //    int amount = 12;
 
-            int[] ways = cp.GetChangeWays(amount, coins);
+        //    int[] ways = cp.GetChangeWays(amount, coins);
 
-            cp.PrintWays(ways, coins);
+        //    cp.PrintWays(ways, coins);
             
-            Console.ReadKey();
-        }
+        //    Console.ReadKey();
+        //}
     }
 }
