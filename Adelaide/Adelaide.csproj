@@ -43,11 +43,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DP\ClimbStairsNonRecursive.cs" />
+    <Compile Include="DP\CoinProblem.cs" />
     <Compile Include="DP\DP.cs" />
     <Compile Include="DP\DP_MagicIndex.cs" />
+    <Compile Include="DP\GenerateValidParenthesis.cs" />
     <Compile Include="DP\MultiplyWithoutMultiplication.cs" />
     <Compile Include="DP\NQueens.cs" />
+    <Compile Include="DP\PermutationStringNoDups.cs" />
     <Compile Include="DP\TowerOfHanoi.cs" />
+    <Compile Include="Maths\MathQuestions.cs" />
+    <Compile Include="Sorting\MergeIntoBigArray.cs" />
     <Compile Include="Strings\StringOperations.cs" />
     <Compile Include="Bitwise\BitPractice.cs" />
     <Compile Include="Bitwise\Bitwise.cs" />
